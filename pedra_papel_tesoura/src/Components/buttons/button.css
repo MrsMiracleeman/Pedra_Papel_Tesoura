@@ -1,0 +1,109 @@
+.pedra{
+    border-radius: 100%;
+    background: linear-gradient(to right, hsl(230, 89%, 62%), hsl(230, 83%, 53%));
+    box-shadow: 1px 1px 5px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    bottom: 7%;
+}
+.pedra button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-image: url('../buttons/pedra.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.papel{
+    border-radius: 100%;
+    background: linear-gradient(to right, hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
+    box-shadow: 1px 1px 5px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    align-self: flex-end;
+    right: 5px;
+}
+.papel button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-image: url('../buttons/papel.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.papell{
+    border-radius: 100%;
+    background: linear-gradient(to right, hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
+    box-shadow: 1px 1px 5px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    align-self: flex-end;
+    right: 100px;
+}
+.papell button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-image: url('../buttons/papel.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tesoura{
+    border-radius: 100%;
+    background: linear-gradient(to right, hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+    box-shadow: 1px 1px 5px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    bottom: 7%;
+}
+.tesoura button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-image: url('../buttons/tesoura.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.none{
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    bottom: 7%;
+}
+.none button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
+
+}

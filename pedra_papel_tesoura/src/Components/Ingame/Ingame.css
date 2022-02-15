@@ -1,0 +1,28 @@
+header{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingame_header{
+    border: 1px solid rgb(170, 170, 170);
+    width: 45%;
+    height: 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.ingame_header_labels{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+.palco{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

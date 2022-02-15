@@ -1,0 +1,69 @@
+.step1{
+    height: 80%;
+    background: url('../Ingame/bg-triangle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.step2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.box{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.box h6{
+    padding: 8px;
+    margin-left: 5px;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bolder;
+}
+.step3{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resultado h6{
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+.resultado button{
+    font-size: 1.6em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(77, 76, 76);
+    border: none;
+    width: 120%;
+    cursor: pointer;
+}
+.box{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.box h6{
+    padding: 6px;
+    margin-left: 5px;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bolder;
+}

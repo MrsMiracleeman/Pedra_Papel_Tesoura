@@ -1,0 +1,17 @@
+.placar{
+    background-color: rgba(255, 255, 255, 0.933);
+    color: rgb(18, 0, 138);
+    height: 75%;
+    font-size: 1.8em;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgba(15, 14, 60, 0.816);
+}
+.placar h2{
+    color: black;
+}
